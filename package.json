@@ -1,0 +1,34 @@
+{
+  "name": "@dmessenger/smap",
+  "version": "1.0.0",
+  "description": "Simple Moderator Authorization Protocol used within dMessenger",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getdmessenger/smap.git"
+  },
+  "keywords": [
+    "smap"
+  ],
+  "author": "Jared Rice Sr. <jared@peepsx.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/getdmessenger/smap/issues"
+  },
+  "homepage": "https://dmessenger.network",
+  "dependencies": {
+    "@ddatabase/crypto": "^1.0.0",
+    "noise-protocol": "^3.0.1",
+    "simple-handshake": "^3.0.0",
+    "simple-message-channels": "^1.2.1",
+    "sodium-native": "^3.2.1",
+    "varint": "^6.0.0",
+    "xsalsa20-universal": "^1.0.0"
+  }
+}

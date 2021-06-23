@@ -1,0 +1,31 @@
+message NoisePayload {
+  required bytes nonce = 1;
+}
+
+message Invite {
+  required bytes type = 1;
+  required bytes name = 2;
+  required bytes sender = 3;
+  required bytes signature = 4;
+  required bytes intendedReceiver = 5;
+}
+
+message Accept {
+  required bytes roomName = 1;
+  required bytes localPublicKey = 2;
+  required bytes responder = 3;
+  required bytes signature = 4;
+}
+
+message Authorized {
+  required bytes roomName = 1;
+}
+
+message Refused {
+  required bytes responder = 1;
+  required bytes signature = 2;
+}
+
+message Close {
+  required bytes sender = 1;
+}
