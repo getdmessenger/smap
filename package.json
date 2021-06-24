@@ -1,6 +1,6 @@
 {
   "name": "@dmessenger/smap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple Moderator Authorization Protocol used within dMessenger",
   "main": "index.js",
   "directories": {
